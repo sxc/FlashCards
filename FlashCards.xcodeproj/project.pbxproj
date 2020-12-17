@@ -17,6 +17,7 @@
 		34BA523F258B0BF100B51E2A /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA523E258B0BF100B51E2A /* HoneymoonModel.swift */; };
 		34BA5243258B0C8300B51E2A /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA5242258B0C8300B51E2A /* HoneymoonData.swift */; };
 		34BA524A258B0D4100B51E2A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA5249258B0D4100B51E2A /* CardView.swift */; };
+		34BA524D258B289400B51E2A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA524C258B289400B51E2A /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		34BA523E258B0BF100B51E2A /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
 		34BA5242258B0C8300B51E2A /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
 		34BA5249258B0D4100B51E2A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		34BA524C258B289400B51E2A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				34BA5227258B03DC00B51E2A /* ContentView.swift */,
 				34BA5249258B0D4100B51E2A /* CardView.swift */,
+				34BA524C258B289400B51E2A /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34BA5243258B0C8300B51E2A /* HoneymoonData.swift in Sources */,
+				34BA524D258B289400B51E2A /* HeaderView.swift in Sources */,
 				34BA523F258B0BF100B51E2A /* HoneymoonModel.swift in Sources */,
 				34BA5228258B03DC00B51E2A /* ContentView.swift in Sources */,
 				34BA5226258B03DC00B51E2A /* FlashCardsApp.swift in Sources */,
