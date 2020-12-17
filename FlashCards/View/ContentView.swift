@@ -16,6 +16,8 @@ struct ContentView: View {
             // fixme: add padding to the cards later on.
                 .padding()
             Spacer()
+            FooterView()
+            
         }
     }
 }
