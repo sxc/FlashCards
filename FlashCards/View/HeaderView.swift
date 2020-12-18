@@ -10,12 +10,13 @@ import SwiftUI
 struct HeaderView: View {
     // MARK: - PORPERTIES
     @Binding var showGuideView: Bool
+    @Binding var showInfoView: Bool
     
     
     var body: some View {
         HStack {
             Button(action: {
-                
+                self.showInfoView.toggle()
                 
             })
             {
@@ -23,6 +24,10 @@ struct HeaderView: View {
                     .font(.system(size: 24, weight: .regular))
             }
             .accentColor(Color.primary)
+            .sheet(isPresented: $showInfoView, content: {
+                InfoView()
+            })
+            
             Spacer()
             Image("logo-honeymoon-pink")
                 .resizable()
@@ -46,8 +51,10 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     @State static var showGuide: Bool = false
+    @State static var showInfo: Bool = false
+    
     static var previews: some View {
-        HeaderView(showGuideView: $showGuide)
+        HeaderView(showGuideView: $showGuide, showInfoView: $showInfo)
             .previewLayout(.fixed(width: 375, height: 80))
     }
 }
