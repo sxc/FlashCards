@@ -11,6 +11,7 @@ struct HeaderView: View {
     // MARK: - PORPERTIES
     @Binding var showGuideView: Bool
     
+    
     var body: some View {
         HStack {
             Button(action: {
