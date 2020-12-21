@@ -11,6 +11,8 @@
 		342B8AF9258C45EE00CE9D88 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B8AF8258C45EE00CE9D88 /* TitleModifier.swift */; };
 		342B8AFE258C53DE00CE9D88 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B8AFD258C53DE00CE9D88 /* ButtonModifier.swift */; };
 		342B8B01258C84C300CE9D88 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B8B00258C84C300CE9D88 /* SymbolModifier.swift */; };
+		342B8B05258C8BB300CE9D88 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B8B04258C8BB300CE9D88 /* CardTransition.swift */; };
+		342E994C2590381B002032E0 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E994B2590381B002032E0 /* PlaySound.swift */; };
 		34BA5226258B03DC00B51E2A /* FlashCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA5225258B03DC00B51E2A /* FlashCardsApp.swift */; };
 		34BA5228258B03DC00B51E2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA5227258B03DC00B51E2A /* ContentView.swift */; };
 		34BA522A258B03E000B51E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BA5229258B03E000B51E2A /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 		342B8AF8258C45EE00CE9D88 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		342B8AFD258C53DE00CE9D88 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		342B8B00258C84C300CE9D88 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		342B8B04258C8BB300CE9D88 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		342E994B2590381B002032E0 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		34BA5222258B03DC00B51E2A /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BA5225258B03DC00B51E2A /* FlashCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsApp.swift; sourceTree = "<group>"; };
 		34BA5227258B03DC00B51E2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +77,22 @@
 			path = Modifier;
 			sourceTree = "<group>";
 		};
+		342B8B03258C8B8D00CE9D88 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				342B8B04258C8BB300CE9D88 /* CardTransition.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		342E994A2590380C002032E0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				342E994B2590381B002032E0 /* PlaySound.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		34BA5219258B03DC00B51E2A = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +112,8 @@
 		34BA5224258B03DC00B51E2A /* FlashCards */ = {
 			isa = PBXGroup;
 			children = (
+				342E994A2590380C002032E0 /* Helper */,
+				342B8B03258C8B8D00CE9D88 /* Extension */,
 				342B8AFB258C462100CE9D88 /* Modifier */,
 				34BA5252258B2E9C00B51E2A /* Component */,
 				34BA5248258B0D1D00B51E2A /* View */,
@@ -238,10 +260,12 @@
 				342B8AF6258C454A00CE9D88 /* InfoView.swift in Sources */,
 				34BA5250258B2B4100B51E2A /* FooterView.swift in Sources */,
 				342B8AF9258C45EE00CE9D88 /* TitleModifier.swift in Sources */,
+				342B8B05258C8BB300CE9D88 /* CardTransition.swift in Sources */,
 				342B8B01258C84C300CE9D88 /* SymbolModifier.swift in Sources */,
 				34BA524D258B289400B51E2A /* HeaderView.swift in Sources */,
 				34BA523F258B0BF100B51E2A /* HoneymoonModel.swift in Sources */,
 				342B8AFE258C53DE00CE9D88 /* ButtonModifier.swift in Sources */,
+				342E994C2590381B002032E0 /* PlaySound.swift in Sources */,
 				34BA5254258B2EC800B51E2A /* HeaderComponent.swift in Sources */,
 				34BA5228258B03DC00B51E2A /* ContentView.swift in Sources */,
 				34BA5226258B03DC00B51E2A /* FlashCardsApp.swift in Sources */,
